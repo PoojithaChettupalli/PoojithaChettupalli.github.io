@@ -180,30 +180,49 @@ body {
 .language-label {
   font-size: 0.8rem;
   letter-spacing: 0.08em;
-  margin-bottom: 16px !important;
+  margin-bottom: 20px !important;
   font-weight: 700;
   text-transform: uppercase;
 }
 
-.pie-chart {
-  width: 140px;
-  height: 140px;
-  margin: 0 auto 24px;
-  display: block;
+.languages-bars {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
-.language-legend {
+.language-bar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.bar-label {
   font-size: 0.85rem;
-  line-height: 1.9;
+  font-weight: 600;
+  width: 60px;
+  min-width: 60px;
 }
 
-.legend-color {
-  display: inline-block;
-  width: 14px;
-  height: 14px;
-  border-radius: 2px;
-  margin-right: 10px;
-  vertical-align: middle;
+.bar-container {
+  flex: 1;
+  height: 12px;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.bar-fill {
+  height: 100%;
+  border-radius: 6px;
+  transition: width 0.3s ease;
+}
+
+.bar-level {
+  font-size: 0.8rem;
+  font-weight: 600;
+  width: 30px;
+  text-align: right;
 }
 
 /* Experience Section */
