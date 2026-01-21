@@ -188,40 +188,41 @@ body {
 .languages-bars {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 18px;
 }
 
 .language-bar {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 12px;
 }
 
 .bar-label {
   font-size: 0.85rem;
   font-weight: 600;
-  width: 60px;
-  min-width: 60px;
+  width: 55px;
+  min-width: 55px;
 }
 
 .bar-container {
   flex: 1;
-  height: 12px;
-  background: rgba(255, 255, 255, 0.3);
-  border-radius: 6px;
+  height: 14px;
+  background: rgba(255, 255, 255, 0.25);
+  border-radius: 7px;
   overflow: hidden;
 }
 
 .bar-fill {
   height: 100%;
-  border-radius: 6px;
+  border-radius: 7px;
+  background: rgba(255, 255, 255, 0.8);
   transition: width 0.3s ease;
 }
 
 .bar-level {
   font-size: 0.8rem;
   font-weight: 600;
-  width: 30px;
+  width: 28px;
   text-align: right;
 }
 
