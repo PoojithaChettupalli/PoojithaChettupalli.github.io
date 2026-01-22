@@ -12,7 +12,7 @@ body {
 
 /* Header */
 .header {
-  background: #6b9b8f;
+  background: #A7B3AD;
   color: white;
   padding: 50px 40px;
   text-align: center;
@@ -98,7 +98,7 @@ body {
 
 /* Cards */
 .card {
-  background: #6b9b8f;
+  background: #A7B3AD;
   border-radius: 12px;
   padding: 28px;
   color: white;
@@ -261,13 +261,13 @@ body {
 .timeline-marker {
   width: 14px;
   height: 14px;
-  background: #6b9b8f;
+  background: #A7B3AD;
   border-radius: 50%;
   position: absolute;
   left: -22px;
   top: 10px;
   border: 3px solid white;
-  box-shadow: 0 0 0 2px #6b9b8f;
+  box-shadow: 0 0 0 2px #A7B3AD;
 }
 
 .timeline:before {
@@ -314,8 +314,7 @@ body {
   margin: 0 4px;
 }
 
-.company {
-  color: #6b9b8f;
+.company {\n  color: #A7B3AD;
   font-weight: 600;
   background: #f0f8f6;
   padding: 4px 10px;
@@ -355,7 +354,7 @@ body {
   content: "▪";
   position: absolute;
   left: 0;
-  color: #6b9b8f;
+  color: #A7B3AD;
   font-size: 0.7rem;
 }
 
